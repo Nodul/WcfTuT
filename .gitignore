@@ -1,0 +1,24 @@
+# User specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+
+.vs/
+
+# MSTest test results
+[Tt]est[Rr]result*/
+[Bb]iuld[Ll]og.*
+
+
+*.tmp
+*.obj
+*.meta
+*.log
+*.pdb
