@@ -7,4 +7,5 @@ A playground WCF project to learn WCF, as well as .NET, more thorougly
 001-Login - User login + appropiate data storage
 002-Number - Random number generator service
 003-Infrastructure - Giving structure to the project [Onion architecture perhaps?]
+004-Configuration - Add proper config files and initialization. This includes a Configuration project.
 ...
