@@ -1,0 +1,6 @@
+C:\Hobby\WCF\WcfTuT\WcfTuTService\WcfTuT\bin\WcfTuT.dll.config
+C:\Hobby\WCF\WcfTuT\WcfTuTService\WcfTuT\bin\WcfTuT.dll
+C:\Hobby\WCF\WcfTuT\WcfTuTService\WcfTuT\bin\WcfTuT.pdb
+C:\Hobby\WCF\WcfTuT\WcfTuTService\WcfTuT\obj\Debug\WcfTuTSrv.csprojResolveAssemblyReference.cache
+C:\Hobby\WCF\WcfTuT\WcfTuTService\WcfTuT\obj\Debug\WcfTuT.dll
+C:\Hobby\WCF\WcfTuT\WcfTuTService\WcfTuT\obj\Debug\WcfTuT.pdb

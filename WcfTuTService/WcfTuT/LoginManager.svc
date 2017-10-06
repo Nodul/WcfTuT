@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WcfTuT.LoginManager" CodeBehind="LoginManager.svc.cs" %>
