@@ -62,16 +62,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="LoginManager.svc" />
+    <Content Include="Numbers.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ILoginManager.cs" />
-    <Compile Include="IUserDB.cs" />
+    <Compile Include="Interfaces\INumbersService.cs" />
+    <Compile Include="Interfaces\INumbersGenerator.cs" />
+    <Compile Include="Managers\FakeManagers\FakeNumbersGenerator.cs" />
+    <Compile Include="Managers\FakeManagers\FakeUserDB.cs" />
+    <Compile Include="Interfaces\ILoginService.cs" />
+    <Compile Include="Interfaces\IUserDB.cs" />
     <Compile Include="LoginManager.svc.cs">
       <DependentUpon>LoginManager.svc</DependentUpon>
     </Compile>
+    <Compile Include="Managers\NumbersGenerator.cs" />
+    <Compile Include="Numbers.svc.cs">
+      <DependentUpon>Numbers.svc</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Managers\UserDB.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
